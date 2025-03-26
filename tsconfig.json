@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "allowJs": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+//    "types": ["node", "playwright"],
+  },
+  "include": [
+    "playwright/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "artifacts"
+  ]
+}
